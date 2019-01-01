@@ -47,7 +47,7 @@ var mrPlus;
 var mrMinus;
 
 //evolution speed vars
-var evolutionSpeed =2;
+var evolutionSpeed =1;
 var speedPara;
 var speedPlus;
 var speedMinus;
