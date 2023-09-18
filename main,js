@@ -1,0 +1,21 @@
+ public void Draw(SpriteBatch spriteBatch)
+    {
+        boundingBox.X = (int)position.X;
+        boundingBox.Y = (int)position.Y;
+
+        drawingOrigin = new Vector2(texture.Width / 2, texture.Height / 2);
+
+        spriteBatch.Draw(texture, boundingBox, null, Color.White, orientation, drawingOrigin, SpriteEffects.None, 0.0f);
+    }
+
+    public Vector2 PlayerPosition
+    {
+        set
+        {
+            playerPosition = value;
+        }
+        get
+        {
+            return playerPosition;
+        }
+    }
